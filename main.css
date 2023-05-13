@@ -1,0 +1,45 @@
+html {
+    font-size: 25px;
+    color: blue 
+}
+
+body {
+    background-color: rgb(252, 237, 202);
+    color: black;
+}
+
+a{
+    color: rgb(81, 164, 237);
+}
+a:visited {
+    color:rgb(229, 160, 70);
+}
+a.hover, a:active{
+    color: blue;
+}
+hr {
+    border: solid white }
+table,td,tr,TH, caption{
+    border: 1px solid black;
+    font-family: 'Courier New', Courier, monospace;
+    border-collapse: collapse;
+    padding: 0.5rem;
+}
+/* .dailyimage{
+position: absolute;
+} */
+h1{
+  position: sticky;
+  text-align: center;
+  top: 0;
+  background-color: rgb(232, 211, 164);
+  border: 2px solid   rgb(240, 198, 108);
+}
+h2{
+    text-align: center;
+  position: sticky ;
+  top: 0;
+  background-color: rgb(232, 211, 164);
+  border: 2px solid   rgb(240, 198, 108);
+
+}
